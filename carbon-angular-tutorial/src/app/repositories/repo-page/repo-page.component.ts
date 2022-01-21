@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './repo-page.component.html',
   styleUrls: ['./repo-page.component.scss']
 })
+
 export class RepoPageComponent implements OnInit {
 
   constructor() { }

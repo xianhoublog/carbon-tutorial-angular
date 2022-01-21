@@ -28,7 +28,9 @@ import { AddModule } from '@carbon/icons-angular';
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule {
+   
   constructor(protected iconsService: IconService){
     iconsService.registerAll([
       // Notification16,
