@@ -1,6 +1,5 @@
-import { Component, OnInit ,HostBinding} from '@angular/core';
+import { Component, OnInit ,HostBinding, Input} from '@angular/core';
 
-// @HostBinding('class.bx--header') headerClass : Boolean;
 
 
 @Component({
@@ -9,7 +8,9 @@ import { Component, OnInit ,HostBinding} from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-
+  @HostBinding('class.bx--header') headerClass = true;
+// for angular carbon icon
+  @Input() size!: string;
 
   ngOnInit(): void {
   }
