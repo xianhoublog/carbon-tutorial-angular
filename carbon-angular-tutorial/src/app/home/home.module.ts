@@ -9,6 +9,7 @@ import {
 
 import { HomeRoutingModule } from './home-routing.module';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { InfoModule } from '../info/info.module';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
     GridModule,
     BreadcrumbModule,
     ButtonModule,
-    TabsModule
+    TabsModule,
+    InfoModule
   ]
 })
 export class HomeModule { }
