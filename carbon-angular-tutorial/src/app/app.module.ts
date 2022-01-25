@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 
 import { AddModule } from '@carbon/icons-angular';
 
+
 // import Notification16  from '@carbon/icons/es/notification/16';
 // import UserAvatar16 from '@carbon/icons/es/user--avatar/16';
 // import AppSwitcher16 from '@carbon/icons/es/app-switcher/16';
@@ -22,7 +23,8 @@ import { AddModule } from '@carbon/icons-angular';
     BrowserModule,
     AppRoutingModule,
     UIShellModule,
-    AddModule
+    AddModule,
+
 
   ],
   providers: [],

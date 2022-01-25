@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\angular-test"
+		},
+		{
+			"path": "..\\..\\new\\my-project"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\Icluster\\Icluster_web_repo\\icw-portal"
+		}
+	],
+	"settings": {}
+}
